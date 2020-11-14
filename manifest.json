@@ -1,0 +1,12 @@
+{
+    "name": "Stream-Cinema",
+    "version": "1.0",
+    "description": "This is an attampt at creating an online streaming cinema extention for chrome!",
+    "permissions": ["storage", "declarativeContent", "activeTab"],
+    "options_page": "options.html",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+    "manifest_version": 2
+  }
